@@ -20,5 +20,5 @@ def assign_rooms(speaker_list)
 end
 
 def printer (attendees)
-  puts batch_badge_creator(attendees).each.shift
+  puts batch_badge_creator(attendees).shift
 end
